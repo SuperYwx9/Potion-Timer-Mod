@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "potion-timer",
+  "version": "${version}",
+  "name": "Potion Timer",
+  "description": "Отображает таймер эффекта зелья слабости на экране.",
+  "authors": [
+    "SuperYwx9"
+  ],
+  "contact": {
+    "homepage": "*",
+    "sources": "https://github.com/SuperYwx9/Potion-Timer-Mod"
+  },
+  "license": "MIT",
+  "icon": "assets/potion-timer/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.superywx9.potiontimer.PotionTimerMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}",
+    "java": ">=21"
+  }
+}
