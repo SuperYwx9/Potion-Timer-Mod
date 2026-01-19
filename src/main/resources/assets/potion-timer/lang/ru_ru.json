@@ -1,0 +1,30 @@
+{
+  "key.potiontimer.config": "Открыть настройки",
+  "category.potiontimer": "Таймер зелий",
+
+  "text.autoconfig.potiontimer.title": "Настройки Таймера Зелий",
+
+  "text.autoconfig.potiontimer.category.display": "Отображение",
+  "text.autoconfig.potiontimer.category.sound": "Звук",
+  "text.autoconfig.potiontimer.category.effects": "Эффекты",
+
+  "text.autoconfig.potiontimer.option.posX": "Позиция X",
+  "text.autoconfig.potiontimer.option.posX.@Tooltip": "Позиция таймера по оси X\nУстановите -1 для центрирования",
+  "text.autoconfig.potiontimer.option.posY": "Позиция Y",
+  "text.autoconfig.potiontimer.option.posY.@Tooltip": "Позиция таймера по оси Y",
+
+  "text.autoconfig.potiontimer.option.soundNotification": "Звуковое уведомление",
+  "text.autoconfig.potiontimer.option.soundNotification.@Tooltip": "Воспроизводить звук при малом времени",
+  "text.autoconfig.potiontimer.option.soundThreshold": "Порог звука (секунды)",
+  "text.autoconfig.potiontimer.option.soundThreshold.@Tooltip": "Воспроизводить звук когда время ниже этого значения",
+  "text.autoconfig.potiontimer.option.soundVolume": "Громкость звука (%)",
+  "text.autoconfig.potiontimer.option.soundVolume.@Tooltip": "Громкость звука от 1% до 100%",
+
+  "text.autoconfig.potiontimer.option.vignetteEffect": "Эффект виньетки",
+  "text.autoconfig.potiontimer.option.vignetteEffect.@Tooltip": "Показывать затемнение при малом времени",
+  "text.autoconfig.potiontimer.option.vignetteThreshold": "Порог виньетки (секунды)",
+  "text.autoconfig.potiontimer.option.vignetteThreshold.@Tooltip": "Показывать виньетку когда время ниже этого значения",
+  "text.autoconfig.potiontimer.option.vignetteColor": "Цвет виньетки",
+  "text.autoconfig.potiontimer.option.vignetteOpacity": "Прозрачность виньетки (%)",
+  "text.autoconfig.potiontimer.option.vignetteOpacity.@Tooltip": "Уровень прозрачности виньетки"
+}

@@ -16,6 +16,18 @@ repositories {
         name = "Fabric"
         url = "https://maven.fabricmc.net/"
     }
+    maven {
+        name = "Shedaniel"
+        url = "https://maven.shedaniel.me/"
+    }
+    maven {
+        name = "Terraformers"
+        url = "https://maven.terraformersmc.com/releases/"
+    }
+    maven {
+        name = "Modrinth"
+        url = "https://api.modrinth.com/maven"
+    }
 }
 
 dependencies {
@@ -26,6 +38,12 @@ dependencies {
 
     // Fabric API. This is technically optional, but you probably want it anyway.
     modImplementation "net.fabricmc.fabric-api:fabric-api:${fabric_version}"
+
+    // Cloth Config API
+    modImplementation "me.shedaniel.cloth:cloth-config-fabric:${cloth_config_version}"
+
+    // ModMenu
+    modImplementation "com.terraformersmc:modmenu:${project.modmenu_version}"
 }
 
 processResources {

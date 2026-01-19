@@ -3,7 +3,7 @@
   "id": "potion-timer",
   "version": "${version}",
   "name": "Potion Timer",
-  "description": "Отображает таймер эффекта зелья слабости на экране.",
+  "description": "Отображает таймер эффекта зелья слабости на экране. Добавляет звуковые уведомления и визуальные эффекты при малом времени.",
   "authors": [
     "SuperYwx9"
   ],
@@ -15,14 +15,18 @@
   "icon": "assets/potion-timer/icon.png",
   "environment": "client",
   "entrypoints": {
-    "client": [
-      "com.superywx9.potiontimer.PotionTimerMod"
+    "client": ["com.superywx9.potiontimer.PotionTimerMod"],
+    "modmenu": ["com.superywx9.potiontimer.integration.ModMenuIntegration"
     ]
   },
   "depends": {
     "fabricloader": ">=${loader_version}",
     "fabric-api": "*",
     "minecraft": "${minecraft_version}",
+    "cloth-config": ">=19.0.0",
     "java": ">=21"
+  },
+  "suggests": {
+    "modmenu": "*"
   }
 }

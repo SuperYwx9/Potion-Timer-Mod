@@ -1,0 +1,30 @@
+{
+  "key.potiontimer.config": "Open Config",
+  "category.potiontimer": "Potion Timer",
+
+  "text.autoconfig.potiontimer.title": "Potion Timer Config",
+
+  "text.autoconfig.potiontimer.category.display": "Display",
+  "text.autoconfig.potiontimer.category.sound": "Sound",
+  "text.autoconfig.potiontimer.category.effects": "Effects",
+
+  "text.autoconfig.potiontimer.option.posX": "X Position",
+  "text.autoconfig.potiontimer.option.posX.@Tooltip": "Position of timer on X axis\nSet -1 for center alignment",
+  "text.autoconfig.potiontimer.option.posY": "Y Position",
+  "text.autoconfig.potiontimer.option.posY.@Tooltip": "Position of timer on Y axis",
+
+  "text.autoconfig.potiontimer.option.soundNotification": "Sound Notification",
+  "text.autoconfig.potiontimer.option.soundNotification.@Tooltip": "Play sound when time is low",
+  "text.autoconfig.potiontimer.option.soundThreshold": "Sound Threshold (seconds)",
+  "text.autoconfig.potiontimer.option.soundThreshold.@Tooltip": "Play sound when time is below this value",
+  "text.autoconfig.potiontimer.option.soundVolume": "Sound Volume (%)",
+  "text.autoconfig.potiontimer.option.soundVolume.@Tooltip": "Sound volume from 1% to 100%",
+
+  "text.autoconfig.potiontimer.option.vignetteEffect": "Vignette Effect",
+  "text.autoconfig.potiontimer.option.vignetteEffect.@Tooltip": "Show darkening effect when time is low",
+  "text.autoconfig.potiontimer.option.vignetteThreshold": "Vignette Threshold (seconds)",
+  "text.autoconfig.potiontimer.option.vignetteThreshold.@Tooltip": "Show vignette when time is below this value",
+  "text.autoconfig.potiontimer.option.vignetteColor": "Vignette Color",
+  "text.autoconfig.potiontimer.option.vignetteOpacity": "Vignette Opacity (%)",
+  "text.autoconfig.potiontimer.option.vignetteOpacity.@Tooltip": "Vignette transparency level"
+}
