@@ -8,12 +8,12 @@ import me.shedaniel.autoconfig.annotation.ConfigEntry;
 public class ModConfig implements ConfigData {
 
     @ConfigEntry.Category("display")
-    @ConfigEntry.Gui.Tooltip(count = 2)
+    @ConfigEntry.Gui.Tooltip
     @ConfigEntry.BoundedDiscrete(min = -1, max = 2000)
     public int posX = -1;
 
     @ConfigEntry.Category("display")
-    @ConfigEntry.Gui.Tooltip(count = 2)
+    @ConfigEntry.Gui.Tooltip
     @ConfigEntry.BoundedDiscrete(min = -1, max = 2000)
     public int posY = 300;
 
