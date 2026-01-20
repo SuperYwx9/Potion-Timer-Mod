@@ -2,6 +2,8 @@
   "key.potiontimer.config": "Открыть настройки",
   "category.potiontimer": "Таймер зелий",
 
+  "text.potiontimer.seconds": "%s сек",
+
   "text.autoconfig.potiontimer.title": "Настройки Таймера Зелий",
 
   "text.autoconfig.potiontimer.category.display": "Отображение",
@@ -11,7 +13,7 @@
   "text.autoconfig.potiontimer.option.posX": "Позиция X",
   "text.autoconfig.potiontimer.option.posX.@Tooltip": "Позиция таймера по оси X\nУстановите -1 для центрирования",
   "text.autoconfig.potiontimer.option.posY": "Позиция Y",
-  "text.autoconfig.potiontimer.option.posY.@Tooltip": "Позиция таймера по оси Y",
+  "text.autoconfig.potiontimer.option.posY.@Tooltip": "Позиция таймера по оси Y\nУстановите -1 для центрирования",
 
   "text.autoconfig.potiontimer.option.soundNotification": "Звуковое уведомление",
   "text.autoconfig.potiontimer.option.soundNotification.@Tooltip": "Воспроизводить звук при малом времени",
