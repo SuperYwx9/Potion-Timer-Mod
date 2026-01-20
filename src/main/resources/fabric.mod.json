@@ -9,7 +9,8 @@
   ],
   "contact": {
     "homepage": "https://modrinth.com/project/BHCM2LVa",
-    "sources": "https://github.com/SuperYwx9/Potion-Timer-Mod"
+    "sources": "https://github.com/SuperYwx9/Potion-Timer-Mod",
+    "issues": "https://github.com/SuperYwx9/Potion-Timer-Mod/issues"
   },
   "license": "MIT",
   "icon": "assets/potion-timer/icon.png",
