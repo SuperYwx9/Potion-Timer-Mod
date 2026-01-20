@@ -10,6 +10,7 @@ import net.minecraft.client.KeyMapping;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.gui.screens.Screen;
+import net.minecraft.client.resources.language.I18n;
 import net.minecraft.client.resources.sounds.SimpleSoundInstance;
 import net.minecraft.client.sounds.SoundManager;
 import net.minecraft.network.chat.Component;
@@ -64,7 +65,8 @@ public class PotionTimerMod implements ClientModInitializer {
         if (minutes > 0) {
             text = String.format("%d:%02d", minutes, remainingSeconds);
         } else {
-            text = totalSeconds + " сек";
+            String secondsText = I18n.get("text.potiontimer.seconds", totalSeconds);
+            text = secondsText;
         }
 
         ModConfig config = ConfigManager.getConfig();
