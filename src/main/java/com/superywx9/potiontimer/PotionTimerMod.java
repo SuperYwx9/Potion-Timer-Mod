@@ -9,7 +9,6 @@ import net.fabricmc.fabric.api.client.keybinding.v1.KeyBindingHelper;
 import net.minecraft.client.KeyMapping;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiGraphics;
-import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.client.resources.language.I18n;
 import net.minecraft.client.resources.sounds.SimpleSoundInstance;
 import net.minecraft.client.sounds.SoundManager;
@@ -66,17 +65,14 @@ public class PotionTimerMod implements ClientModInitializer {
         int screenWidth = mc.getWindow().getGuiScaledWidth();
         int screenHeight = mc.getWindow().getGuiScaledHeight();
 
-        // Рисуем основной таймер если включен
         if (config.showTimer) {
             renderMainTimer(guiGraphics, config, totalSeconds, screenWidth, screenHeight);
         }
 
-        // Рисуем прогресс-бар в стиле полосы здоровья боссов
         if (config.showProgressBar) {
             renderBossStyleProgressBar(guiGraphics, config, totalSeconds, screenWidth, screenHeight);
         }
 
-        // Рисуем виньетку если время меньше порога
         if (config.vignetteEffect && totalSeconds <= config.vignetteThreshold) {
             drawVignette(guiGraphics, screenWidth, screenHeight, config, totalSeconds);
         }
@@ -102,7 +98,6 @@ public class PotionTimerMod implements ClientModInitializer {
 
         int textColor = getColor(totalSeconds);
 
-        // Рисуем текст таймера
         guiGraphics.drawString(
                 Minecraft.getInstance().font,
                 Component.literal(text),
@@ -117,7 +112,6 @@ public class PotionTimerMod implements ClientModInitializer {
         int barWidth = config.progressBarWidth;
         int barHeight = config.progressBarHeight;
 
-        // Рассчитываем позицию (центрирование по X если progressBarX = -1)
         int barX;
         if (config.progressBarX < 0) {
             barX = (screenWidth - barWidth) / 2;
@@ -132,34 +126,26 @@ public class PotionTimerMod implements ClientModInitializer {
         int maxY = Math.max(minY, screenHeight - barHeight - 5);
         barY = Math.max(minY, Math.min(config.progressBarY, maxY));
 
-        // Максимальное время - 8 минут = 480 секунд
         int maxSeconds = 480;
         float progress = Math.min(1.0f, currentSeconds / (float) maxSeconds);
 
-        // Ширина заполненной части
         int filledWidth = (int)(barWidth * progress);
 
-        // ФИКСИРОВАННЫЙ ЦВЕТ ФОНА (темно-серый, как у боссов Minecraft)
-        int backgroundColor = 0xFF404040; // Темно-серый, непрозрачный
+        int backgroundColor = 0xFF404040;
 
-        // Рисуем фон (черная рамка как у боссов)
-        // Внешняя темная рамка
         guiGraphics.fill(
                 barX - 1, barY - 1,
                 barX + barWidth + 1, barY + barHeight + 1,
                 0xFF000000
         );
 
-        // Фон полосы (фиксированный темно-серый цвет)
         guiGraphics.fill(
                 barX, barY,
                 barX + barWidth, barY + barHeight,
                 backgroundColor
         );
 
-        // Рисуем заполненную часть
         if (filledWidth > 0) {
-            // Динамический цвет: зеленый → желтый → красный
             int color = getBossBarColor(progress);
             guiGraphics.fill(
                     barX, barY,
@@ -167,7 +153,6 @@ public class PotionTimerMod implements ClientModInitializer {
                     color
             );
 
-            // Добавляем светлую полоску сверху для эффекта объема
             guiGraphics.fill(
                     barX, barY,
                     barX + filledWidth, barY + 1,
@@ -177,18 +162,13 @@ public class PotionTimerMod implements ClientModInitializer {
     }
 
     private int getBossBarColor(float progress) {
-        // Цвет как у полос здоровья боссов Minecraft
         if (progress > 0.5f) {
-            // Зеленый для >50%
             return 0xFF00FF00;
         } else if (progress > 0.25f) {
-            // Желтый для 25-50%
             return 0xFFFFFF00;
         } else if (progress > 0.1f) {
-            // Оранжевый для 10-25%
             return 0xFFFFA500;
         } else {
-            // Красный для <10%
             return 0xFFFF0000;
         }
     }
