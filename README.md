@@ -1,28 +1,28 @@
-## 🧪 Таймер спортивного зелья
+## 🧪 Sport Potion Timer
 ![Minecraft](https://img.shields.io/badge/Minecraft-1.21.8-green)
 ![Environment](https://img.shields.io/badge/Environment-Client--side-blue)
 ![Language](https://img.shields.io/badge/Language-Java%2021-orange?logo=java)
 
-**Таймер спортивного зелья** добавляет простой таймер времени действия зелья слабости.<br>
-Больше не будет ситуаций когда эффект зелья прошёл и ты даже не заметил.
+**Sport Potion Timer** adds a simple timer for the Weakness potion effect duration.<br>
+No more situations where the potion effect wears off without you even noticing.
 ***
-### ✅ Возможности:
-- Простой цветной таймер _(60 секунд и более - Зелёный, менее 60 секунд - Жёлтый, менее 30 секунд - Красный)_.
-- _Прогресс-бар_ для комфортного отслеживания.
-- Звуковые сигналы когда осталось мало времени.
-- Виньетка по краям экрана.
-- Гибкая настройка мода. Вы можете включить/выключить необходимые функции и тонко их настроить.
-- Полностью **клиентский** мод без необходимости устанавливать на сервер.
+### ✅ Features:
+- Simple color-coded timer _(60+ seconds - Green, less than 60 seconds - Yellow, less than 30 seconds - Red)_.
+- A _progress bar_ for comfortable tracking.
+- Sound alerts when time is running low.
+- A vignette effect at the edges of the screen.
+- Flexible mod configuration. You can enable/disable the features you need and fine-tune them.
+- Fully **client-side** mod. No need to install it on the server.
 ***
-Работает только с эффектом слабости и не мешает другим эффектам.
+It only works with the Weakness effect and does not interfere with other effects.
 ***
-Для работы мода необходимы:
+Requirements:
 - Fabric API
 - Cloth Config API
-- ModMenu (опционально)
+- ModMenu (optional)
 ***
-Простой и удобный мод который поможет вам отслеживать остаток спортивного зелья.
+A simple and convenient mod that helps you track the remaining duration of your sport potion.
 ***
-### 📸 Скриншоты:
+### 📸 Screenshots:
 <img alt="Таймер с прогресс-баром" src="https://cdn.modrinth.com/data/cached_images/fb5be63b64a6fc37cf86014c4397a3a5d88f7ccf.png" width="400" />
 <img alt="Простой таймер" src="https://cdn.modrinth.com/data/cached_images/538460d0e10aa686f8fe13993b43fa714bc49871.png" width="400" />
