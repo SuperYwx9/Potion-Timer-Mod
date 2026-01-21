@@ -4,16 +4,29 @@
 
   "text.potiontimer.seconds": "%s сек",
 
-  "text.autoconfig.potiontimer.title": "Настройки Таймера Зелий",
+  "text.autoconfig.potiontimer.title": "Настройки таймера спортивного зелья",
 
   "text.autoconfig.potiontimer.category.display": "Отображение",
+  "text.autoconfig.potiontimer.category.progress": "Полоса босса",
   "text.autoconfig.potiontimer.category.sound": "Звук",
   "text.autoconfig.potiontimer.category.effects": "Эффекты",
 
-  "text.autoconfig.potiontimer.option.posX": "Позиция X",
-  "text.autoconfig.potiontimer.option.posX.@Tooltip": "Позиция таймера по оси X\nУстановите -1 для центрирования",
-  "text.autoconfig.potiontimer.option.posY": "Позиция Y",
-  "text.autoconfig.potiontimer.option.posY.@Tooltip": "Позиция таймера по оси Y\nУстановите -1 для центрирования",
+  "text.autoconfig.potiontimer.option.showTimer": "Показывать таймер",
+  "text.autoconfig.potiontimer.option.showTimer.@Tooltip": "Показывать основной текст таймера",
+  "text.autoconfig.potiontimer.option.posX": "Позиция X таймера",
+  "text.autoconfig.potiontimer.option.posX.@Tooltip": "Позиция текста таймера по оси X\nУстановите -1 для центрирования",
+  "text.autoconfig.potiontimer.option.posY": "Позиция Y таймера",
+  "text.autoconfig.potiontimer.option.posY.@Tooltip": "Позиция текста таймера по оси Y",
+
+  "text.autoconfig.potiontimer.option.showProgressBar": "Показывать полосу прогресса",
+  "text.autoconfig.potiontimer.option.progressBarX": "Позиция X полосы",
+  "text.autoconfig.potiontimer.option.progressBarX.@Tooltip": "Позиция полосы прогресса по оси X\nУстановите -1 для центрирования",
+  "text.autoconfig.potiontimer.option.progressBarY": "Позиция Y полосы",
+  "text.autoconfig.potiontimer.option.progressBarY.@Tooltip": "Позиция полосы прогресса по оси Y",
+  "text.autoconfig.potiontimer.option.progressBarWidth": "Ширина полосы",
+  "text.autoconfig.potiontimer.option.progressBarWidth.@Tooltip": "Ширина полосы прогресса в пикселях\nПо умолчанию: 182",
+  "text.autoconfig.potiontimer.option.progressBarHeight": "Высота полосы",
+  "text.autoconfig.potiontimer.option.progressBarHeight.@Tooltip": "Высота полосы прогресса в пикселях",
 
   "text.autoconfig.potiontimer.option.soundNotification": "Звуковое уведомление",
   "text.autoconfig.potiontimer.option.soundNotification.@Tooltip": "Воспроизводить звук при малом времени",
