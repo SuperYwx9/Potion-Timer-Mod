@@ -7,7 +7,7 @@
   "text.autoconfig.potiontimer.title": "Weakness Potion Timer Config",
 
   "text.autoconfig.potiontimer.category.display": "Display",
-  "text.autoconfig.potiontimer.category.progress": "Boss Bar",
+  "text.autoconfig.potiontimer.category.progress": "Progress Bar",
   "text.autoconfig.potiontimer.category.sound": "Sound",
   "text.autoconfig.potiontimer.category.effects": "Effects",
 
@@ -43,3 +43,4 @@
   "text.autoconfig.potiontimer.option.vignetteOpacity": "Vignette Opacity (%)",
   "text.autoconfig.potiontimer.option.vignetteOpacity.@Tooltip": "Vignette transparency level"
 }
+
