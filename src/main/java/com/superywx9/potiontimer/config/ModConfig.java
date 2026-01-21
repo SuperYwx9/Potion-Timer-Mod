@@ -9,13 +9,40 @@ public class ModConfig implements ConfigData {
 
     @ConfigEntry.Category("display")
     @ConfigEntry.Gui.Tooltip
+    public boolean showTimer = true;
+
+    @ConfigEntry.Category("display")
+    @ConfigEntry.Gui.Tooltip
     @ConfigEntry.BoundedDiscrete(min = -1, max = 2000)
     public int posX = -1;
 
     @ConfigEntry.Category("display")
     @ConfigEntry.Gui.Tooltip
+    @ConfigEntry.BoundedDiscrete(min = 0, max = 2000)
+    public int posY = 280;
+
+    @ConfigEntry.Category("progress")
+    public boolean showProgressBar = true;
+
+    @ConfigEntry.Category("progress")
+    @ConfigEntry.Gui.Tooltip
     @ConfigEntry.BoundedDiscrete(min = -1, max = 2000)
-    public int posY = 300;
+    public int progressBarX = -1;
+
+    @ConfigEntry.Category("progress")
+    @ConfigEntry.Gui.Tooltip
+    @ConfigEntry.BoundedDiscrete(min = 0, max = 2000)
+    public int progressBarY = 300;
+
+    @ConfigEntry.Category("progress")
+    @ConfigEntry.Gui.Tooltip
+    @ConfigEntry.BoundedDiscrete(min = 100, max = 400)
+    public int progressBarWidth = 182;
+
+    @ConfigEntry.Category("progress")
+    @ConfigEntry.Gui.Tooltip
+    @ConfigEntry.BoundedDiscrete(min = 5, max = 20)
+    public int progressBarHeight = 5;
 
     @ConfigEntry.Category("sound")
     @ConfigEntry.Gui.Tooltip
@@ -47,5 +74,5 @@ public class ModConfig implements ConfigData {
     @ConfigEntry.Category("effects")
     @ConfigEntry.Gui.Tooltip
     @ConfigEntry.BoundedDiscrete(min = 0, max = 100)
-    public int vignetteOpacity = 40;
+    public int vignetteOpacity = 25;
 }
