@@ -4,16 +4,29 @@
 
   "text.potiontimer.seconds": "%s sec",
 
-  "text.autoconfig.potiontimer.title": "Potion Timer Config",
+  "text.autoconfig.potiontimer.title": "Weakness Potion Timer Config",
 
   "text.autoconfig.potiontimer.category.display": "Display",
+  "text.autoconfig.potiontimer.category.progress": "Boss Bar",
   "text.autoconfig.potiontimer.category.sound": "Sound",
   "text.autoconfig.potiontimer.category.effects": "Effects",
 
-  "text.autoconfig.potiontimer.option.posX": "X Position",
-  "text.autoconfig.potiontimer.option.posX.@Tooltip": "Position of timer on X axis\nSet -1 for center alignment",
-  "text.autoconfig.potiontimer.option.posY": "Y Position",
-  "text.autoconfig.potiontimer.option.posY.@Tooltip": "Position of timer on Y axis\nSet -1 for center alignment",
+  "text.autoconfig.potiontimer.option.showTimer": "Show Timer",
+  "text.autoconfig.potiontimer.option.showTimer.@Tooltip": "Show the main timer text",
+  "text.autoconfig.potiontimer.option.posX": "Timer X Position",
+  "text.autoconfig.potiontimer.option.posX.@Tooltip": "Position of timer text on X axis\nSet -1 for center alignment",
+  "text.autoconfig.potiontimer.option.posY": "Timer Y Position",
+  "text.autoconfig.potiontimer.option.posY.@Tooltip": "Position of timer text on Y axis",
+
+  "text.autoconfig.potiontimer.option.showProgressBar": "Show Progress Bar",
+  "text.autoconfig.potiontimer.option.progressBarX": "Progress Bar X Position",
+  "text.autoconfig.potiontimer.option.progressBarX.@Tooltip": "Position of progress bar on X axis\nSet -1 for center alignment",
+  "text.autoconfig.potiontimer.option.progressBarY": "Progress Bar Y Position",
+  "text.autoconfig.potiontimer.option.progressBarY.@Tooltip": "Position of progress bar on Y axis",
+  "text.autoconfig.potiontimer.option.progressBarWidth": "Progress Bar Width",
+  "text.autoconfig.potiontimer.option.progressBarWidth.@Tooltip": "Width of progress bar in pixels\nDefault: 182",
+  "text.autoconfig.potiontimer.option.progressBarHeight": "Progress Bar Height",
+  "text.autoconfig.potiontimer.option.progressBarHeight.@Tooltip": "Height of progress bar in pixels",
 
   "text.autoconfig.potiontimer.option.soundNotification": "Sound Notification",
   "text.autoconfig.potiontimer.option.soundNotification.@Tooltip": "Play sound when time is low",
