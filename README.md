@@ -1,6 +1,9 @@
 # Potion-Timer-Mod
 A Minecraft mod that displays a potion of weakness timer.
 
-requirements:<br>
-Fabric API<br>
-Cloth Config API
+<b>Requirements:</b>
+- Fabric API<br>
+- Cloth Config API<br>
+
+<b>Optional:</b>
+- ModMenu (to open configuration menu)
