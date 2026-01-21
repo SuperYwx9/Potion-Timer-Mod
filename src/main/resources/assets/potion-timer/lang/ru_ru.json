@@ -7,7 +7,7 @@
   "text.autoconfig.potiontimer.title": "Настройки таймера спортивного зелья",
 
   "text.autoconfig.potiontimer.category.display": "Отображение",
-  "text.autoconfig.potiontimer.category.progress": "Полоса босса",
+  "text.autoconfig.potiontimer.category.progress": "Прогресс-бар",
   "text.autoconfig.potiontimer.category.sound": "Звук",
   "text.autoconfig.potiontimer.category.effects": "Эффекты",
 
@@ -43,3 +43,4 @@
   "text.autoconfig.potiontimer.option.vignetteOpacity": "Прозрачность виньетки (%)",
   "text.autoconfig.potiontimer.option.vignetteOpacity.@Tooltip": "Уровень прозрачности виньетки"
 }
+
