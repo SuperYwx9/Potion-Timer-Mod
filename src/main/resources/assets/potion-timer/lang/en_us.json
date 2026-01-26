@@ -13,6 +13,8 @@
 
   "text.autoconfig.potiontimer.option.showTimer": "Show Timer",
   "text.autoconfig.potiontimer.option.showTimer.@Tooltip": "Show the main timer text",
+  "text.autoconfig.potiontimer.option.timerBackground": "Timer Background",
+  "text.autoconfig.potiontimer.option.timerBackground.@Tooltip": "Show semi-transparent background behind timer for better readability",
   "text.autoconfig.potiontimer.option.posX": "Timer X Position",
   "text.autoconfig.potiontimer.option.posX.@Tooltip": "Position of timer text on X axis\nSet -1 for center alignment",
   "text.autoconfig.potiontimer.option.posY": "Timer Y Position",
@@ -43,4 +45,3 @@
   "text.autoconfig.potiontimer.option.vignetteOpacity": "Vignette Opacity (%)",
   "text.autoconfig.potiontimer.option.vignetteOpacity.@Tooltip": "Vignette transparency level"
 }
-
