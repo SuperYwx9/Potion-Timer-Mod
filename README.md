@@ -2,7 +2,7 @@
 ![Minecraft](https://img.shields.io/badge/Minecraft-1.21.8-green)
 ![Environment](https://img.shields.io/badge/Environment-Client--side-blue)
 ![Language](https://img.shields.io/badge/Language-Java%2021-orange?logo=java)
-<a href="[https://github.com/SuperYwx9/Potion-Timer-Mod](https://modrinth.com/project/BHCM2LVa)"><img src="https://img.shields.io/badge/modrinth-6-green?logo=modrinth"></a>
+<a href="[https://github.com/SuperYwx9/Potion-Timer-Mod](https://modrinth.com/project/BHCM2LVa)"><img src="https://img.shields.io/badge/modrinth-29-green?logo=modrinth"></a>
 
 **Sport Potion Timer** adds a simple timer for the Weakness potion effect duration.<br>
 No more situations where the potion effect wears off without you even noticing.
