@@ -98,6 +98,22 @@ public class PotionTimerMod implements ClientModInitializer {
 
         int textColor = getColor(totalSeconds);
 
+        if (config.timerBackground) {
+            int padding = 2;
+            int bgX = x - padding;
+            int bgY = y - padding;
+            int bgWidth = textWidth + padding * 2;
+            int bgHeight = textHeight + padding * 2;
+
+            int backgroundColor = 0x80000000;
+
+            guiGraphics.fill(
+                    bgX, bgY,
+                    bgX + bgWidth, bgY + bgHeight,
+                    backgroundColor
+            );
+        }
+
         guiGraphics.drawString(
                 Minecraft.getInstance().font,
                 Component.literal(text),
