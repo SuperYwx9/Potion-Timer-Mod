@@ -13,6 +13,8 @@
 
   "text.autoconfig.potiontimer.option.showTimer": "Показывать таймер",
   "text.autoconfig.potiontimer.option.showTimer.@Tooltip": "Показывать основной текст таймера",
+  "text.autoconfig.potiontimer.option.timerBackground": "Фон таймера",
+  "text.autoconfig.potiontimer.option.timerBackground.@Tooltip": "Показывать полупрозрачный фон за таймером для лучшей читаемости",
   "text.autoconfig.potiontimer.option.posX": "Позиция X таймера",
   "text.autoconfig.potiontimer.option.posX.@Tooltip": "Позиция текста таймера по оси X\nУстановите -1 для центрирования",
   "text.autoconfig.potiontimer.option.posY": "Позиция Y таймера",
@@ -43,4 +45,3 @@
   "text.autoconfig.potiontimer.option.vignetteOpacity": "Прозрачность виньетки (%)",
   "text.autoconfig.potiontimer.option.vignetteOpacity.@Tooltip": "Уровень прозрачности виньетки"
 }
-
